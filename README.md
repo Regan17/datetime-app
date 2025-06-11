@@ -19,8 +19,8 @@ Step 6: Hosted the application publicly using Render.com for free hosting.
 Step 7: Automated build, test, and Docker image push using GitHub Actions CI/CD workflows.
 
 Step 8: Added GitHub Secrets to safely store credentials and tokens.
+![image](https://github.com/user-attachments/assets/39882786-0896-490e-84da-2da317a9b94c)
 
-Step 9: (Optional) Monitored the Kubernetes deployment status using standard kubectl commands.
 
 Project Structure
 main.go — The GoLang program that serves current date and time.
@@ -38,27 +38,15 @@ Clone the repository
 
 Run the Go app locally:
 
-bash
-Copy
-Edit
 go run main.go
 Build Docker image:
 
-bash
-Copy
-Edit
 docker build -t yourdockerhubusername/datetime-app:latest .
 Push to Docker Hub:
 
-bash
-Copy
-Edit
 docker push yourdockerhubusername/datetime-app:latest
 Deploy on Kubernetes cluster using:
 
-bash
-Copy
-Edit
 kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
 GitHub Actions
