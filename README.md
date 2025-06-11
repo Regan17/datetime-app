@@ -19,6 +19,8 @@ Step 6: Hosted the application publicly using Render.com for free hosting.
 Step 7: Automated build, test, and Docker image push using GitHub Actions CI/CD workflows.
 
 Step 8: Added GitHub Secrets to safely store credentials and tokens.
+
+Working screenshop of app deployed on render.
 ![image](https://github.com/user-attachments/assets/39882786-0896-490e-84da-2da317a9b94c)
 
 
